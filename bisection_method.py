@@ -1,8 +1,8 @@
 def f(x):
-    return x**3 - 7 *  x**2 + 14 * x - 6
+    return 3 * (x + 1) * (x - 0.5) * (x - 1)
 
-a = 3.2
-b = 4
+a = -1.25
+b = 2.5
 tolerance = 0.01
 print(f"Starting interval is {a} to {b}, and our tolerance is {tolerance}")
 
